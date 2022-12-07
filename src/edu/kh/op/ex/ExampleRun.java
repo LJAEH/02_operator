@@ -14,7 +14,9 @@ public class ExampleRun {
 		// crtl ex1 누르면 원문으로 돌아감 
 		// 여기서 ex는 같은 패키지내에 존재해서 import가 필요하지않음
 		
-		ex.ex2();
+		//ex.ex2();
+		
+		ex.ex8();
 	}
 
 	
