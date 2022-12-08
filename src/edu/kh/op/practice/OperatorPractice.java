@@ -104,5 +104,37 @@ public class OperatorPractice {
 		
 		System.out.printf("평균 : %.1f", avg); // 소숫점 1자리 까지 표시
 		
+		boolean result = (kor >= 40) && (eng >= 40) && (math >= 40)
+				         && (sum >= 60);
+		
+		System.out.println();
+		System.out.println(result ? "합격" : "불합격");
+								// 조건식 ? 식1 : 식2  <-삼항연산자
+		
+	}
+	
+	public void practice4() {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("1과목 : ");
+		int first = sc.nextInt();
+		
+		System.out.print("2과목 : ");
+		int sec = sc.nextInt();
+		
+		System.out.print("3과목 : ");
+		int third = sc.nextInt();
+		
+
+		String str1 = "합격";
+		String str2 = "불합격";
+		
+		String result = (first>40) && (sec>40) && (third>40) && ((first + sec + third)/3>60  ? str1 : str2;
+		System.out.println(result);
+		
+		
+		
+		
 	}
 }

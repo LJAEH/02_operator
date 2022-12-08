@@ -9,8 +9,6 @@ public class PracticeRun {
 		OperatorPractice op = new OperatorPractice();
 		
 		op.practice3();
-		
-		
 	}
 
 }
